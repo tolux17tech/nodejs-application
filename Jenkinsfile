@@ -4,7 +4,7 @@ pipeline {
     agent any
 
     tools{
-        nodejs 'node'
+        nodejs "node"
     }
     stages {
         stage ('validate') {
