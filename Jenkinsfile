@@ -36,6 +36,13 @@ pipeline {
                 }
             }
         }
+        stage ('Deploying app') {
+            steps {
+                script{
+                    sh "npm start"
+                }
+            }
+        }
         
     }
 }
