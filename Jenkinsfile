@@ -10,7 +10,7 @@ pipeline {
         stage ('validate') {
             steps {
                 script{
-                    sh "npm test"
+//                     sh "npm test"
                 }
             }
         }
