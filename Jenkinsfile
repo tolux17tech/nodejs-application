@@ -10,6 +10,7 @@ pipeline {
         stage ('validate') {
             steps {
                 script{
+                    sh "echo hello"
 //                     sh "npm test"
                 }
             }
